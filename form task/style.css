@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+
+}
+#content{
+    margin-left: 10px;
+}
+.nav-button ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: royalblue;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+
+}
+.nav-button ul li{
+    float: left;
+    padding: 10px;
+
+}.nav-button ul li:hover{
+    background-color: green;
+}
+.nav-button ul li a{
+    text-decoration: none;
+    color: white;
+}
+.form-decorate{
+    margin: 10px;
+}
+.form-decorate form p label {
+    display: block;
+    padding: 5px;
+    
+}
+.large-input{
+    width: 700px;
+    padding-bottom: 30px;
+}
+.medium-input{
+    width: 300px;
+    padding-bottom: 10px;
+}
+.submit{
+    padding:10px 40px;
+    font-size: larger;
+}
+.success{
+    color: green;
+    margin: 10px;
+}
+.error{
+    color: red;
+    margin: 10px;
+}
+.table-decorate{
+    margin:10px;
+
+}
+.table-decorate table tr th,td{
+    padding-left: 10px;
+}
+#bold{
+    font-size: larger;
+    padding-top: 10px;
+}
