@@ -19,12 +19,12 @@ $table.="</table>";
 <html>
     <head>
         <title>ManageUsers</title>
+        <link rel="stylesheet" type="text/css" href="style.css?=1">
     </head>
     <body>
         <div class="nav-button">
             <ul>
                 <li><a href="logout.php">Log Out</a></li>
-                <link rel="stylesheet" type="text/css" href="style.css?=1">
             </ul>
         </div>
         <div class='table-decorate'>

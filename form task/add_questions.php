@@ -30,6 +30,7 @@ if (isset($_POST['submit'])) {
         <div class="nav-button">
             <ul>
                 <li><a href="manageusers.php">ManageUsers</a></li>
+                <li><a href="viewmarks.php">ViewMarks</a></li>
                 <li><a href="logout.php">Log Out</a></li>
             </ul>
         </div>

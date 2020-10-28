@@ -54,6 +54,9 @@ if (isset($_POST['submit'])) {
         $temp+=1; 
     }
     $table.="Correct:".$correct."<br>Incorrect:".$wrong."";
+    $username=$_SESSION['username'];
+    $sql="INSERT INTO `marks`(`username`, `marks`) VALUES ('$username', '$correct')";
+    $conn->query($sql);
 }
 ?>
 <!DOCTYPE html>
